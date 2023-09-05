@@ -1,0 +1,9 @@
+name: PombaChunks
+version: '${project.version}'
+main: me.vitruvis.pombachunks.PombaChunks
+api-version: 1.20
+softdepend: [ Factions ]
+authors: [ vitruvis ]
+permissions:
+  pombachunks.admin.bypass:
+    default: op
